@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./loader.css";
+import logo from "../logo-cafe.jpg";
 
 const variants = {
   hidden: { opacity: 0, y: 500 },
@@ -29,7 +30,7 @@ const Loader = ({ setLoading }) => {
       variants={variants}
       className="loader"
     >
-      {/* <img src={require("../logo-cafe.jpg")} alt="Trulli" width="55%" /> */}
+      <img src={logo} alt="Trulli" width="55%" />
     </motion.div>
   );
 };
