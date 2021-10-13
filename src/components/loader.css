@@ -1,0 +1,19 @@
+/* .container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+ 
+}
+ */
+
+.loader {
+  position: absolute;
+
+  width: 100vw;
+}
+.loader img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
